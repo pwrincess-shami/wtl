@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Create Account </title>
+	<link href="css/account.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+	<form method="post" action="account.html" role="form">
+
+	<h1> Create Account </h1>
+
+	<label for="name"> Your Full Name </label>
+	<input type="text" name="name" id="name" class="form-input" required="required" maxlength="50" class="form-control" /> 
+	
+	<label for="no"> Mobile Name </label>
+	<input type="number" name="no" id="no" class="form-input" required="required" class="form-control" /> 
+
+	<label for="email"> Email </label>
+	<input type="email" name="email" id="email" class="form-input" required="required" class="form-control" /> 
+
+	<label for="r_no"> Roll No (if applicable) </label>
+	<input type="text" name="r_no" id="r_no" class="form-input" required="required" maxlength="10" class="form-control" /> 
+
+	<label for="user"> Enter Username </label>
+	<input type="text" name="uname" id="user" class="form-input" required="required" maxlength="10" class="form-control" />
+	<span id="usererr"> </span> <br> <br>
+ 
+	<label for="pswrd"> Enter Password </label>
+	<input type="password" name="pswrd" id="pswrd" class="form-input" required="required" maxlength="16" class="form-control" />
+
+	<label for="cpass"> Confirm Password </label>
+	<input type="password" name="cpass" id="cpass" class="form-input" required="required" maxlength="10" class="form-control" />
+	<span id="cpasserr"> </span>
+
+	<input type="submit" value ="Create Account" class="btn">
+</form>
+<script src="js/account.js"> </script>
+</body>
+</html>
